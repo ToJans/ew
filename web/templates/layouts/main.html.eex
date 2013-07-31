@@ -1,0 +1,11 @@
+<html>
+	<head>
+		<title>
+			<%= content_for(:title)  || "Ellibotwave" %>
+		</title>
+	</head>
+	<body>
+		<h1><%= content_for(:title) || "Ellibotwave" %></h1>
+		<%= content_for(:template) %>
+	</body>
+</html>

@@ -1,0 +1,5 @@
+<h3>Welcome</h3>
+
+This is an experimental site about Elliot waves. Please select a NASDAQ symbol.
+
+<%= render("commands/pick_a_symbol") %>

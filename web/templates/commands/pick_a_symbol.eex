@@ -1,0 +1,13 @@
+<form action="/" method="post">
+	<fieldset>
+		<label>Symbol</label>
+  	<input name="symbol" list="symbols" autofocus="autofocus" required="required" />
+  	<datalist id="symbols">
+  		<option value="AAPL"/>
+  		<option value="LEDS"/>
+  		<option value="USO"/>
+  		<option value="DJIA"/>
+  	</datalist>
+	</fieldset>
+	<input type="submit" name="Get chart"/>
+</form>

@@ -1,0 +1,8 @@
+[ "cowboy": {:git, "git://github.com/extend/cowboy.git", "5e5d8ab299a451ffbf0552bc2190a5fcbec08c16", []},
+  "dynamo": {:git, "git://github.com/elixir-lang/dynamo.git", "38d7b6afdf2e232062a11c1f408c376d0e306ec3", []},
+  "elixir_csv": {:git, "git://github.com/baldmountain/elixir_csv.git", "870587e0403df93b63bfb22aeecf42887ad7688a", []},
+  "ex_doc": {:git, "https://github.com/elixir-lang/ex_doc.git", "4bc1e9af619fd98e51479cbe09157ff831b0d4e1", []},
+  "hackney": {:git, "git://github.com/benoitc/hackney.git", "70a2ae6d19271340ad5f261d56a45a5253269ca0", []},
+  "mimetypes": {:git, "git://github.com/spawngrid/mimetypes.git", "47d37a977a7d633199822bf6b08353007483d00f", []},
+  "ranch": {:git, "git://github.com/extend/ranch.git", "4f70a16bbe08e446e8fec248ca345d5f8e7df038", [{:ref, "0.8.4"}]},
+  "yahoo_finance": {:git, "https://github.com/baldmountain/yahoo_finance", "742c8890289878c407d274d0954c8bac90809b64", []} ]

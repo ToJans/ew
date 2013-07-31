@@ -1,0 +1,30 @@
+<%= render("commands/pick_a_symbol") %>
+
+<h1>Chart for <%= @symbol %></h1>
+
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+<script type="text/javascript">
+  google.load('visualization', '1', {packages: ['corechart']});
+</script>
+<script type="text/javascript">
+  function drawVisualization() {
+    var data = google.visualization.arrayToDataTable([
+       // ['Mon', 20, 28, 38, 45],
+       // ['Tue', 25, 30, 45, 50]
+        <%= @quotes %>
+      ]
+      // Treat first row as data as well.
+    , true);
+
+    var options = {   
+      legend:'none'
+    };
+
+    var chart = new google.visualization.CandlestickChart(document.getElementById('chart'));
+    chart.draw(data, options);
+  }
+
+  google.setOnLoadCallback(drawVisualization);
+</script>
+
+<div id="chart" style="width:90%;height:30em" />
